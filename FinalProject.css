@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container2 {
+    left: 0;
+    right: 0;
+    bottom:0;
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-top {
+    width: 80px;
+    margin: 20px 0;
+    position: absolute;
+    left: 20px;
+}
+
+.logo-bottom {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.menu-btn {
+    background-color: #d1881c;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px 0;
+    border: none;
+    width: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.menu-btn:hover {
+    background-color: #9c3b06;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pricing-btn {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 20px;
+    right: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #d1881c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-btn {
+    color: white;
+    text-decoration: none;
+    top: 20px;
+    right: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #d1881c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-btn:hover {
+    background-color: #9c3b06;
+}
+
+.pricing-btn:hover {
+    background-color: #9c3b06;
+}
+
+.pricing-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: black;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Sevillana';
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.sidebar {
+    width: 20%;
+    max-width: 200px;
+    height: 100vh;
+    background-color: #d1881c;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.sidebar-link {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px 0;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.sidebar-link:hover {
+    color: #000000;
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 100px;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+.social-btn {
+    background-color: #d1881c;
+    color: white;
+    font-size: 24px;
+    padding: 40px 60px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.social-btn:hover {
+    background-color: #9c3b06;
+}
+
+h2 {
+    font-size: 36px;
+    color: #d1881c;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.aboutme-content{
+    color: white;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.aboutme {
+    margin-left: 215px;
+    padding: 50px;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.pricing-content {
+    color: white;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pricing {
+    margin-left: 215px;
+    padding: 50px;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.contact-content {
+    color: white;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.contact {
+    margin-left: 215px;
+    padding: 50px;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+table { border: 1.5px solid #006600;
+	width: 80%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td,th {
+	padding: 0.5em;
+	border: 1px solid #FFFFFF;  
+}
+
+td { text-align: center; }
+
+tr:nth-of-type(even) {background-color: #d1881c; }
+
+label { float: left; display: block; text-align: right; width: 125px; padding-right: 2em; }
+
+input, textarea { display: block; margin-bottom: 20px; }
+
+input [type="submit"] {margin-left: 135px;}
+
+form {
+    max-width: 500px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d1881c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #9c3b06;
+}
+
+@media only screen and (max-width: 37.5em) {
+	
+	#container2 { 
+        
+        padding: 0.1em 1em; 
+		font-size: 90%;
+        font-family: 'Comic Sans MS', sans-serif;
+    }
+
+    .logo-top {
+        width: 0px;
+    }
+
+    .sidebar {
+        width: 100px;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+        background-color: #000000;
+    }
+
+    .sidebar-link {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .sidebar-link:hover { background-color: #9c3b06; }
+
+    .footer-text {
+        font-family: 'Sevillana' ;
+    }
+
+    .aboutme, .pricing, .contact {
+        margin-left: 0;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Comic Sans MS', sans-serif;
+    }
+
+    .social-links {
+        margin-left: 100px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .video {
+        text-align: left;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .video iframe {
+        display: block; 
+        margin-left: 0; 
+        width: 100%; 
+        height: auto;
+    }
+
+	#mobile { display: inline; }
+
+	label { float: none; text-align: left;}
+
+	input [type="submit"] { margin-left: 0; }
+}
